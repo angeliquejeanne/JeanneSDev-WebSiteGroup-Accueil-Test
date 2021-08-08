@@ -48,7 +48,7 @@ main {
             .card-content {
                 width: 60%;
                 height: 400px;
-                margin: 12% auto;
+                // margin: 5% auto 5%;
                 text-align: center;
                     a img {
                         width: 350px;
@@ -69,14 +69,47 @@ main {
     .container-fluid {
         .right {
             height: 300px!important;
+
+            .card-content {
+                width: 60%;
+                margin: 5% auto 10%;
+            }
         }
     }
 }
 
-@media (min-width:560px) and (max-width:960px) {
+@media (min-width:561px) and (max-width:700px) {
+    .container-fluid {
+        .right {
+            height: 350px!important;
+
+            .card-content {
+                width: 60%;
+                margin: 5% auto 8%;
+            }
+        }
+    }
+}
+
+@media (min-width:701px) and (max-width:960px) {
     .container-fluid {
         .right {
             height: 450px!important;
+
+            .card-content {
+                width: 60%;
+                margin: 5% auto 5%;
+            }
+        }
+    }
+}
+@media (min-width:961px) {
+    .container-fluid {
+        .right {
+
+            .card-content {
+                margin: 10% auto 5%;
+            }
         }
     }
 }
@@ -116,7 +149,7 @@ main {
 
                 .card-content {
                     width: 60%;
-                    margin: 5% auto;
+                    height: 100%;
                     text-align: center;
                     a img {
                         margin: 10px auto;
